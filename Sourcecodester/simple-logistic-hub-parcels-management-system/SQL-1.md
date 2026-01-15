@@ -1,4 +1,4 @@
-# Simple Logistic Hub Parcel's Management System v1.0 by Sourcecodester has SQL injection 4
+# Simple Logistic Hub Parcel's Management System v1.0 by Sourcecodester has SQL injection 1
 
 BUG_Author: Liu Lanling
 
