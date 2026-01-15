@@ -1,4 +1,4 @@
-# Simple Online Men's Salon Management System v1.0 by Sourcecodester has SQL injection
+# Simple Online Men's Salon Management System v1.0 by Sourcecodester has SQL injection 2
 
 Bug_author: Liu Lanling
 
