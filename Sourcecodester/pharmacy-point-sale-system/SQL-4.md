@@ -1,4 +1,4 @@
-# Pharmacy Point of Sale System v1.0 by sourcecodester has SQL injection 3
+# Pharmacy Point of Sale System v1.0 by sourcecodester has SQL injection 4
 
 BUG_Author: Liu Lanling
 
